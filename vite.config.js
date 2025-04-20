@@ -4,6 +4,6 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: "/Portfolio", // ← must match your repo name exactly
+  base: "/Portfolio-", // ← must match your repo name exactly
   plugins: [react(), tailwindcss()],
 });
